@@ -1,0 +1,30 @@
+.country-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+@media (max-width: 767px) {
+  .country-container {
+    grid-template-columns: 1fr;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .country-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 1025px) and (max-width: 1440px) {
+  .country-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.visited {
+  background-color: gray;
+  color: #34ffe1;
+}
+.flag-container>img{
+    gap: 5px;
+    padding-right: 10px;
+
+}
