@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-    <h3>Country Tour: by ASHISH</h3>
+    <h3>World Tour: by ASHISH</h3>
     <Countries></Countries>
     </>
   )

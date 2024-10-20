@@ -31,11 +31,11 @@ const Countries = () => {
 
   return (
     <div>
-      <h3>Countries: {countries.length}</h3>
+      <h3>Countries : {countries.length}</h3>
       {/* visited flags */}
       <div>
-        <h5>Visited Countries:{visitedCountries.length}</h5>
-        <ul>
+        <h5>Visited Countries : {visitedCountries.length}</h5>
+        <ul className="">
           {
             visitedCountries.map( country => <li style={{listStyle: 'none'}} key={country.name.cca2}>{country.name.common}</li>)
           }

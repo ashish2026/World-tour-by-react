@@ -7,3 +7,18 @@
 .flag-container>img{
     width: 100px;
 }
+
+.custom-btn {
+    background-color: #364343; /* Blue */
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .custom-btn:hover {
+    background-color: #178fde; /* Darker blue on hover */
+  }
