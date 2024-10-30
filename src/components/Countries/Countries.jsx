@@ -19,8 +19,10 @@ const Countries = () => {
     // visitedCountry.push(country)
 
     const newVisitedCountries = [...visitedCountries, country]
-    // ager visited country jodi thake tobee sobgula copy korte hobe.(...visitedCountries). tarpor notun jeta add korbo seta er poree bosiye dibo . like : country. its called spread operator.
-    // react er modde push kora jabe na. ekta notun array banate hobe r oigula copy korte hobee then notun element bosatee hobee. 
+// If there are previously visited countries, we need to copy all of them (...visitedCountries).
+// Then, add the new country afterward, like: country. This is called the spread operator.
+// In React, we can't use push directly. Instead, we need to create a new array, copy the existing items, and then add the new element.
+
     setVisitedCountries(newVisitedCountries)
 
   };
